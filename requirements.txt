@@ -5,4 +5,5 @@ scikit-learn
 matplotlib
 tensorboard
 streamlit
+altair==4.2.2
 ipykernel
