@@ -3,7 +3,7 @@ from tensorflow.keras.models import load_model
 import pickle
 import pandas as pd
 
-model = load_model("model.keras")
+model = load_model("model.h5")
 col_trans = None
 with open("col_trans.pkl", "rb") as file:
     col_trans = pickle.load(file)
